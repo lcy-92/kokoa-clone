@@ -54,5 +54,5 @@
     align-items: center;
     font-size: 130px;
     animation: hiddenMainScreen 1s ease-in-out forwards;
-    animation-delay: 0.5s;
+    animation-delay: s;
 }
