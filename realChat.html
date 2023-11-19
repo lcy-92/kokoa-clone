@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Chat</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status_bar">
+      <div class="status_bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status_bar__column">
+        <span>21:48</span>
+      </div>
+      <div class="status_bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen_header settings_header">
+      <div>
+        <a href="chat.html"> <i class="fa-solid fa-angle-left fa-2x"></i></a>
+      </div>
+      <h1 class="screen_header_text">스펀지밥</h1>
+      <div class="screen_header_icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, November 19, 2023</div>
+
+      <div class="message-row">
+        <img src="img/스펀지밥.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">스펀지밥</span>
+          <div class="message__info">
+            <span class="message__bubble">안녕 징징이!</span>
+            <span class="message__bubble__time">21:30</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--onwer">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble__time">21:35</span>
+            <span class="message__bubble">안녕 스펀지밥!</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a Message" />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="onlyMobile">
+      <span>Please turn down the screen </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/79260949f3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
